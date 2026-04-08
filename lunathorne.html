@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luna Thorne</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0a0a0a; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+    .page { max-width: 420px; margin: 0 auto; padding: 40px 24px 60px; display: flex; flex-direction: column; align-items: center; }
+    .avatar-ring { width: 90px; height: 90px; border-radius: 50%; border: 1.5px solid #333; padding: 3px; margin-bottom: 16px; }
+    .avatar-inner { width: 100%; height: 100%; border-radius: 50%; background: #1a1a1a; display: flex; align-items: center; justify-content: center; font-size: 22px; color: #666; font-weight: 300; }
+    .name { font-size: 18px; font-weight: 500; color: #f0f0f0; letter-spacing: 0.08em; margin-bottom: 4px; }
+    .tagline { font-size: 13px; color: #555; letter-spacing: 0.04em; margin-bottom: 32px; }
+    .links { width: 100%; display: flex; flex-direction: column; gap: 12px; }
+    .link-btn { display: flex; align-items: center; gap: 14px; width: 100%; padding: 14px 18px; border-radius: 10px; border: 0.5px solid #222; background: #111; color: #d0d0d0; text-decoration: none; font-size: 14px; font-weight: 400; letter-spacing: 0.02em; transition: border-color 0.2s, background 0.2s; }
+    .link-btn:hover { border-color: #444; background: #161616; color: #f0f0f0; }
+    .link-btn.vip { border: 0.5px solid #2e1f4a; background: #0f0a18; }
+    .link-btn.vip:hover { border-color: #4a2f7a; background: #130d20; }
+    .link-btn .icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .icon-fanvue { background: #1a1020; border: 0.5px solid #2e1f4a; }
+    .icon-tg { background: #0d1a22; border: 0.5px solid #1a3040; }
+    .icon-tgvip { background: #1a0d2e; border: 0.5px solid #3d1f6a; }
+    .icon-ig { background: #1a1018; border: 0.5px solid #3a1530; }
+    .icon-tt { background: #0d1a1a; border: 0.5px solid #103030; }
+    .link-label { flex: 1; text-align: left; }
+    .link-sub { font-size: 11px; color: #444; display: block; margin-top: 1px; }
+    .link-sub.vip { color: #6a3fa0; }
+    .badge { font-size: 9px; background: #2e1f4a; color: #b48aff; padding: 2px 7px; border-radius: 20px; letter-spacing: 0.08em; margin-left: 6px; vertical-align: middle; }
+    .arrow { color: #333; font-size: 16px; }
+    .divider { width: 100%; height: 0.5px; background: #1c1c1c; margin: 4px 0; }
+    .section-label { width: 100%; font-size: 10px; color: #333; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 4px; }
+    .footer { margin-top: 40px; font-size: 11px; color: #2a2a2a; letter-spacing: 0.06em; text-align: center; }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <div class="avatar-ring">
+    <div class="avatar-inner">LT</div>
+  </div>
+  <div class="name">LUNA THORNE</div>
+  <div class="tagline">alt · dark · NYC 🌙</div>
+
+  <div class="links">
+
+    <div class="section-label">exclusive</div>
+
+    <a class="link-btn vip" href="https://www.fanvue.com/luna.thorne666" target="_blank">
+      <div class="icon icon-fanvue">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <circle cx="8" cy="8" r="5" stroke="#b48aff" stroke-width="1.2"/>
+          <circle cx="8" cy="8" r="2" fill="#b48aff"/>
+        </svg>
+      </div>
+      <div class="link-label">
+        Fanvue <span class="badge">VIP</span>
+        <span class="link-sub vip">exclusive content 🖤</span>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+
+    <a class="link-btn vip" href="https://t.me/+Jd39CXEVS-8yYjM0" target="_blank">
+      <div class="icon icon-tgvip">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M2 8L14 3L10 13L7 9.5L2 8Z" stroke="#b48aff" stroke-width="1.1" stroke-linejoin="round"/>
+          <path d="M7 9.5L9.5 12" stroke="#b48aff" stroke-width="1.1" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="link-label">
+        Telegram VIP <span class="badge">VIP</span>
+        <span class="link-sub vip">inner circle only</span>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+
+    <div class="divider"></div>
+    <div class="section-label">free</div>
+
+    <a class="link-btn" href="https://t.me/lunathorne" target="_blank">
+      <div class="icon icon-tg">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M2 8L14 3L10 13L7 9.5L2 8Z" stroke="#5aabcc" stroke-width="1.1" stroke-linejoin="round"/>
+          <path d="M7 9.5L9.5 12" stroke="#5aabcc" stroke-width="1.1" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="link-label">
+        Telegram
+        <span class="link-sub">follow for free</span>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+
+    <div class="divider"></div>
+    <div class="section-label">socials</div>
+
+    <a class="link-btn" href="https://instagram.com/luna.thorne666" target="_blank">
+      <div class="icon icon-ig">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <rect x="2" y="2" width="12" height="12" rx="3.5" stroke="#cc7aaa" stroke-width="1.1"/>
+          <circle cx="8" cy="8" r="3" stroke="#cc7aaa" stroke-width="1.1"/>
+          <circle cx="11.5" cy="4.5" r="0.7" fill="#cc7aaa"/>
+        </svg>
+      </div>
+      <div class="link-label">
+        Instagram
+        <span class="link-sub">@luna.thorne666</span>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+
+    <a class="link-btn" href="https://www.tiktok.com/@luna.thorne666" target="_blank">
+      <div class="icon icon-tt">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M10 2C10 5 12 6 14 6V9C12.5 9 11 8.3 10 7.5V12C10 14 8 16 6 15C4 14 3 12 4 10C5 8 7.5 7.5 9 8.5" stroke="#5accc0" stroke-width="1.1" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="link-label">
+        TikTok
+        <span class="link-sub">@luna.thorne666</span>
+      </div>
+      <span class="arrow">›</span>
+    </a>
+
+  </div>
+
+  <div class="footer">
+    🌙<br><br>luna thorne · all rights reserved
+  </div>
+
+</div>
+</body>
+</html>
